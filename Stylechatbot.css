@@ -1,0 +1,195 @@
+
+
+/* Estilos específicos para la sección del chatbot */
+.chatbot-section {
+    background-image: url('ruta-de-la-imagen-de-fondo.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+}
+
+.chatbot-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente para mejor legibilidad */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.chatbot-placeholder {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px dashed #ccc;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #333;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 4px solid #005bb5;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    margin-right: 10px; /* Espacio entre el logo y el título */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #005bb5;
+    color: white;
+    padding: 10px 0;
+    border-bottom: 4px solid #005bb5;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 4px solid #005bb5;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+/* Estilos para la sección del chatbot */
+.chatbot-section {
+    background-image: url('ruta-de-la-imagen-de-fondo.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+}
+
+.chatbot-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para mejor legibilidad */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Estilos para la caja de chat */
+.chatbox {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chatbox-messages {
+    background-color: #f0f0f0;
+    height: 300px;
+    overflow-y: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.chatbox-input-area {
+    display: flex;
+    gap: 10px;
+}
+
+.chatbox-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.chatbox-send-btn {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chatbox-send-btn:hover {
+    background-color: #005bb5;
+}

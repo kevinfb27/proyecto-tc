@@ -1,0 +1,105 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 40px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    margin-right: 5px; /* Espacio entre el logo y el título */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #005bb5;
+    color: white;
+    padding: 10px 0;
+    border-bottom: 4px solid #005bb5;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: lcenter;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #005bb5;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 4px solid #005bb5;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+/* Estilo del botón de Prevención */
+.btn-prevencion {
+    background-color: #044e97; /* Mismo color de fondo que el encabezado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 10px auto; /* Centra el botón */
+}
+
+.btn-prevencion:hover {
+    background-color: #005bb5; /* Cambia a un tono más oscuro al pasar el mouse */
+}
